@@ -1,6 +1,7 @@
 import { supabase } from "@/lib/supabaseClient";
 import RicePriceChart from "@/app/components/RicePriceChart";
 
+
 // This page remains a Server Component for efficient data fetching
 export default async function Home() {
   // Fetch all necessary columns from the 'rice_price' table
