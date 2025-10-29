@@ -1,5 +1,5 @@
-import { supabase } from "@/lib/supabaseClient";
-import RicePriceChart from "@/app/components/RicePriceChart";
+import { supabase } from "@/server/pages/api/lib/supabaseClient";
+import RicePriceChart from "@/client/app/components/RicePriceChart";
 
 
 // This page remains a Server Component for efficient data fetching
